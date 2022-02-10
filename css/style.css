@@ -1,0 +1,181 @@
+@import "null.css";
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+
+}
+
+
+
+
+
+body{
+    background-color: #f6f6f6;
+    font-family:    "Lato";
+    
+}
+.wrapper {
+    max-width:  1090px;
+    margin: 0 auto;
+	min-height: 100%;
+	overflow: hidden;   
+}
+
+.header-conteiner {
+    height: 80px;
+    font-size: 0px;
+    border-bottom: 2px solid grey;
+    margin-bottom: 30px;
+  
+}
+
+.menu {
+    display: inline-block;
+    text-align: right;
+    font-size: 15px;
+    width: 1010px;
+}
+.menu li {
+    display: inline-block;
+    margin: 25px 35px 0 0 ;
+    font-size: 20px;
+    
+}
+.image{
+   
+  width: 70px;
+  margin: 0 0 35px 0 ;
+    /* border: 2px solid red; */
+    
+}
+.image-div
+{
+    display: inline-block;
+    vertical-align: top;  
+    
+}
+
+/* ========================================== */
+.main
+{
+    max-width: 700px;
+}
+.title {
+    font-size: 55px;
+    font-weight: 700;
+    color: rgb(68, 67, 67);
+    margin: 0 0 30px 0;
+}
+.data-web {
+    color: rgb(138, 138, 138);
+    margin: 0 0 30px 0;
+    font-size: 17px;
+
+
+}
+
+.image-main {
+    margin: 0 0 10px 0;
+    width: 800px;
+}
+.img-25px{
+    margin: 0 0 25px 0;
+    width: 800px;
+
+}
+
+.image-comment-1 {
+    color: rgb(138, 138, 138);
+    margin: 0 0 30px 0;
+    font-size: 17px;
+}
+.sub-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 30px 0;
+}
+
+.text {
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(70, 69, 69);
+}
+.text-30px {
+    margin: 0 0 30px 0;
+}
+
+.text-40px
+{
+    margin: 0 0 40px 0
+}
+.text-20px
+{
+    margin: 0 0 20px 0;
+}
+.text-50px
+{
+    margin: 0 0 50px 0;
+}
+.list {
+    font-weight: 300;
+    margin: 0 0 15px 25px;
+    text-decoration: underline;
+    font-size: 18px;
+    line-height: 2;
+}
+.title-of
+{
+    font-size: 35px;
+    font-weight: 700;
+    color: #3d3d40;
+    margin: 0 0 20px 0;
+}
+.footer-info
+{     
+    background-color: rgba(187, 185, 185, 0.52);
+    height: 120px;
+}
+.info-bottom{
+ 
+    display: inline-block;
+}
+
+
+
+.footer-info li{
+    display: inline-block;
+    margin: 25px;
+    
+    
+}
+.pad
+{
+    padding: 0 0 0 120px;
+}
+.figma
+{
+    color:rgba(172, 97, 172, 0.87);
+    text-shadow: 4px 4px 5px blue;
+    font-size: 50px;
+
+}
